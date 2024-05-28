@@ -1,0 +1,166 @@
+
+
+/* default styling */
+
+*{
+     box-sizing: border-box;
+     padding: 0;
+     margin: 0;
+}
+
+body{
+     font-family:'font-awesome';
+     font-size: 100%;
+     line-height: normal;
+}
+
+
+.container{
+     width: 40vw;
+     margin: 50px auto;
+     overflow: hidden;
+     border: 1px solid grey;
+     padding: 10px 20px;
+     border-radius: 5px;
+     
+}
+
+
+.grid{
+     display: grid;
+     gap: 10px;
+     grid-template-columns: repeat(2, 1fr);
+     
+}
+
+.flexbox{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+     
+}
+
+.details .grid{
+     gap: 5px;
+     
+}
+
+
+
+/* image control */
+
+
+.image_area .case{
+
+     border: 1px solid grey;
+     padding: 1rem;
+     border-radius: 5px;
+     height: 47vh;  
+}
+
+
+img{
+ width:100%; 
+height: 100%;
+
+     
+}
+
+
+/* buttons */
+
+.btn_area{
+     border: 1px solid grey;
+     padding:0.8rem 15px;
+     height: 100%;
+     border-radius: 5px;
+     
+}
+
+.buttons{
+
+     padding: 1.2rem 0;
+     
+}
+
+
+
+.sub_head{
+     text-transform: capitalize;
+     font-size: 1.05rem;
+}
+
+.filter{
+     padding-top: 0.8rem;
+}
+
+.btn{
+     cursor: pointer;
+     width: 100px;
+     background: blue;
+     font-size: 100%;text-transform: capitalize;
+     color: white;
+     border-radius: 5px;
+     text-align: center;
+     height: 3rem;
+     padding:7px 5px;
+     margin-bottom: 0.85rem;
+     line-height: 20px;
+}
+
+/* brightness */
+.bright_range{
+ width: 60%;
+}
+
+.range{
+     padding: 0.75rem 0;
+     
+}
+
+
+/* icon section */
+
+.icon{
+     padding: 10px 15px;
+
+}
+
+.icon p{
+     padding: 5px;
+     background: blue;
+     color: white;
+     border: 1px solid white;
+     cursor: pointer;
+     border-radius: 5px;
+     text-align: center;
+     width: 3rem;
+     
+}
+
+.icon .flexbox{
+     justify-content: space-evenly;
+}
+
+
+/* reset button */
+
+.reset_btn{
+     grid-column: 1/span 2;
+     border: 1px solid grey;   
+     height: 100%; 
+     padding: 1rem; 
+     border-radius: 5px;
+}
+
+
+.reset_btn .btn{
+ margin-bottom: 0;
+}
+
+.reset_btn div>p{
+     padding: 5px;
+}
+
+
